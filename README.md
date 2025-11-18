@@ -2,7 +2,7 @@
 
 **Testing Data (20%) can be found in the data folder**
 
-**In order to create the training data, download the following files from the link below and put them in /data/numpy_bitmap**
+**In order to create the training data, download the following files from the link below and put them in /data/numpy_bitmap and run the code in data.ipynb**
 
 > - airplane.npy
 
