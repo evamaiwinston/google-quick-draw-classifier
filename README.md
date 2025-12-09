@@ -5,19 +5,19 @@
 image-classifier/
 │
 ├── data/
-│ ├── training_data.parquet
-│ ├── testing_data.parquet
+│ └── training_data.parquet
+│ └── testing_data.parquet
 │
 ├── notebooks/
-│ ├── EDA.ipynb
-│ ├── final_evaluation.ipynb
+│ └── EDA.ipynb
+│ └── final_evaluation.ipynb
 │ └── gradient_boosting.iypnb
 │ └── neural_network.iypnb
 │ └── random_forest.ipynb
 │
 ├── output/
-│ ├── TBD
-│ ├── TBD
+│ └── TBD
+│ └── TBD
 │ └── TBD
 │
 ├── final_report.pdf
