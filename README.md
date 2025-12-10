@@ -5,7 +5,7 @@ This repository contains all the code, data, and documentation needed to reprodu
 
 ### Software and Platform
 - **Python:** Version 3.12+
-- **Jupyer Notebooks:* For running `.ipynb` files
+- **Jupyer Notebooks:** For running `.ipynb` files
 - **Required Packges:**
   - Test
 - **Operating System:** Windows/Mac
