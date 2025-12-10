@@ -4,7 +4,7 @@
 This repository contains all the code, data, and documentation needed to reproduce the image classification analysis. It includes Jupyter notebooks for exploratory data analysis and model development, parquet files with training and testing data, and a final report summarizing the results.
 
 ### Software and Platform
-- **Python:** Version 3+
+- **Python:** Version 3.12+
 - **Jupyer Notebooks:* For running `.ipynb` files
 - **Required Packges:**
   - Test
