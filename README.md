@@ -1,29 +1,52 @@
 # Image Classification Project
 
-**Training Data (80%) and Testing Data (20%) can be found in the data folder**
+## Contents of the Repository
+This repository contains all the code, data, and documentation needed to reproduce the image classification analysis. It includes Jupyter notebooks for exploratory data analysis and model development, parquet files with training and testing data, and a final report summarizing the results.
 
+### Software and Platform
+- **Python:** Version 3.12+
+- **Jupyer Notebooks:** For running `.ipynb` files
+- **Required Packges:**
+  - Test
+- **Operating System:** Windows/Mac
+
+### Map of Documentation
 
 ```
 image-classifier/
 │
 ├── data/
-│ └── training_data.parquet
-│ └── testing_data.parquet
+│ └── training_data.parquet   # 80% of data for model training
+│ └── testing_data.parquet    # 20% of data for model evaluation
 │
 ├── notebooks/
-│ └── EDA.ipynb
-│ └── final_evaluation.ipynb
-│ └── gradient_boosting.iypnb
-│ └── neural_network.iypnb
-│ └── random_forest.ipynb
+│ └── EDA.ipynb               # Descriptive Analysis Notebook
+│ └── final_evaluation.ipynb  # Final Model Training and Evaluation
+│ └── gradient_boosting.iypnb # Gradient Boosting Model Development
+│ └── neural_network.iypnb    # Neural Network Model Development
+│ └── random_forest.ipynb     # Random Forest Model Development
 │
 ├── output/
 │ └── TBD
 │ └── TBD
 │ └── TBD
 │
-├── final_report.pdf
-├── .gitignore
-├── README.md
-└── requirements.txt
+├── final_report.pdf          # Final Report for the Project
+├── .gitignore                # Git ignore file
+├── README.md                 # This file
+└── requirements.txt          # Python package dependencies
 ```
+
+## Getting Started
+
+1. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Open and run the notebooks in the following order:
+   - Start with `EDA.ipynb` for data exploration
+   - Run model development notebooks (`random_forest.ipynb`, `gradient_boosting.ipynb`, `neural_network.ipynb`)
+   - Review results in `final_evaluation.ipynb`
+
+3. Refer to `final_report.pdf` for detailed analysis and conclusions.
