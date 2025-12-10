@@ -16,25 +16,25 @@ This repository contains all the code, data, and documentation needed to reprodu
 image-classifier/
 │
 ├── data/
-│ └── training_data.parquet # 80% of data for model training
-│ └── testing_data.parquet # 20% of data for model evaluation
+│ └── training_data.parquet   # 80% of data for model training
+│ └── testing_data.parquet    # 20% of data for model evaluation
 │
 ├── notebooks/
-│ └── EDA.ipynb # Descriptive Analysis Notebook
-│ └── final_evaluation.ipynb # Final Model Training and Evaluation
+│ └── EDA.ipynb               # Descriptive Analysis Notebook
+│ └── final_evaluation.ipynb  # Final Model Training and Evaluation
 │ └── gradient_boosting.iypnb # Gradient Boosting Model Development
-│ └── neural_network.iypnb # Neural Network Model Development
-│ └── random_forest.ipynb # Random Forest Model Development
+│ └── neural_network.iypnb    # Neural Network Model Development
+│ └── random_forest.ipynb     # Random Forest Model Development
 │
 ├── output/
 │ └── TBD
 │ └── TBD
 │ └── TBD
 │
-├── final_report.pdf # Final Report for the Project
-├── .gitignore # Git ignore file
-├── README.md # This file
-└── requirements.txt # Python package dependencies
+├── final_report.pdf          # Final Report for the Project
+├── .gitignore                # Git ignore file
+├── README.md                 # This file
+└── requirements.txt          # Python package dependencies
 ```
 
 # Image Classification Project
