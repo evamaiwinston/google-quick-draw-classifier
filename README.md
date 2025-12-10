@@ -1,15 +1,29 @@
 # Image Classification Project
 
-**Testing Data (20%) can be found in the data folder**
+**Training Data (80%) and Testing Data (20%) can be found in the data folder**
 
-**In order to create the training data, download the following files from the link below and put them in /data/numpy_bitmap and run the code in data.ipynb**
 
-> - airplane.npy
-
-> - ice cream.npy
-
-> - spreadsheet.npy
-
-> - sword.npy
-
-``https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false``
+```
+image-classifier/
+│
+├── data/
+│ └── training_data.parquet
+│ └── testing_data.parquet
+│
+├── notebooks/
+│ └── EDA.ipynb
+│ └── final_evaluation.ipynb
+│ └── gradient_boosting.iypnb
+│ └── neural_network.iypnb
+│ └── random_forest.ipynb
+│
+├── output/
+│ └── TBD
+│ └── TBD
+│ └── TBD
+│
+├── final_report.pdf
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
