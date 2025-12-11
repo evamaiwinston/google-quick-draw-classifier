@@ -22,7 +22,7 @@ image-classifier/
 ├── notebooks/
 │ └── EDA.ipynb               # Descriptive Analysis Notebook
 │ └── final_evaluation.ipynb  # Final Model Training and Evaluation
-│ └── gradient_boosting.iypnb # Gradient Boosting Model Development
+│ └── gradient_boosting.ipynb # Gradient Boosting Model Development
 │ └── neural_network.iypnb    # Neural Network Model Development
 │ └── random_forest.ipynb     # Random Forest Model Development
 │
