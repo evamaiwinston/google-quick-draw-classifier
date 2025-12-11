@@ -7,7 +7,13 @@ This repository contains all the code, data, and documentation needed to reprodu
 - **Python:** Version 3.12+
 - **Jupyer Notebooks:** For running `.ipynb` files
 - **Required Packges:**
-  - Test
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - polars
+  - torch
 - **Operating System:** Windows/Mac
 
 ### Map of Documentation
