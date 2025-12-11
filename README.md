@@ -16,25 +16,28 @@ This repository contains all the code, data, and documentation needed to reprodu
 image-classifier/
 │
 ├── data/
-│ └── training_data.parquet   # 80% of data for model training
-│ └── testing_data.parquet    # 20% of data for model evaluation
+│ └── training_data.parquet            # 80% of data for model training
+│ └── testing_data.parquet             # 20% of data for model evaluation
 │
 ├── notebooks/
-│ └── EDA.ipynb               # Descriptive Analysis Notebook
-│ └── final_evaluation.ipynb  # Final Model Training and Evaluation
-│ └── gradient_boosting.ipynb # Gradient Boosting Model Development
-│ └── neural_network.iypnb    # Neural Network Model Development
-│ └── random_forest.ipynb     # Random Forest Model Development
+│ └── EDA.ipynb                        # Descriptive Analysis Notebook
+│ └── final_evaluation.ipynb           # Final Model Training and Evaluation
+│ └── gradient_boosting.ipynb          # Gradient Boosting Model Development
+│ └── neural_network.iypnb             # Neural Network Model Development
+│ └── random_forest.ipynb              # Random Forest Model Development
 │
 ├── output/
-│ └── TBD
-│ └── TBD
-│ └── TBD
+│ └── average_image.png                # Image of pixel-wise average by class
+│ └── class_frequencies.png            # Bar chart of class frequencies
+│ └── class_var.png                    # Image of pixel-wise variance by class
+│ └── Final_Model_ConfusionMatrix.png  # Confusion Matrix of Final Model
+│ └── sample_images.png                # 4 Sample Images
+│ └── total_var.png                    # Image of total pixel-wise variance
 │
-├── final_report.pdf          # Final Report for the Project
-├── .gitignore                # Git ignore file
-├── README.md                 # This file
-└── requirements.txt          # Python package dependencies
+├── final_report.pdf                   # Final Report for the Project
+├── .gitignore                         # Git ignore file
+├── README.md                          # This file
+└── requirements.txt                   # Python package dependencies
 ```
 
 ## Getting Started
